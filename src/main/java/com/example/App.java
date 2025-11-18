@@ -17,7 +17,7 @@ public class App {
 
     static class MyHandler implements HttpHandler {
         public void handle(HttpExchange t) throws java.io.IOException {
-            String response = "Hello from Vipul IT Infra Java App!";
+            String response = "Hello from Jay, This is Java App with AWS JENKINS DOCKER!";
             t.sendResponseHeaders(200, response.length());
             try (OutputStream os = t.getResponseBody()) {
                 os.write(response.getBytes());
